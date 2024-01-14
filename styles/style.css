@@ -236,6 +236,98 @@ header {
 
 
 
+/* Facts - Section Design */
+
+.facts-section {
+    margin: 4rem 0rem;
+}
+
+.facts-content .facts-header .facts-title {
+    color: #131313;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.facts-items {
+    margin-top: 3.5rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.facts-items .facts-item-box {
+    border: 1px solid #FF900E;
+    padding: 2rem 1.8rem;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.facts-items .facts-item-box img {
+    width: 2.5rem;
+    margin-bottom: 5px;
+}
+
+.facts-items .facts-item-box h3 {
+    color: #424242;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.facts-items .facts-item-box p {
+    color: #727272;
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+
+
+
+/* Sponsors Section */
+
+
+.sponsors-section {
+    margin: 6rem 0rem;
+}
+
+.sponsors-content .sponsors-header h3 {
+    color: #131313;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.sponsors-content .sponsors-header p {
+    text-align: center;
+}
+
+.sponsors-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sponsors-item img {
+    width: 120px;
+    margin-top: 3rem;
+}
+
+
+
+
+/* Footer Section */
+
+footer {
+    margin: 6rem 0rem .5rem;
+}
+
+.footer-section {
+    border-radius: 8px;
+    background: #FFF4E7;
+    text-align: center;
+    padding: 1.8rem;
+}
+
 
 
 
@@ -293,14 +385,36 @@ header {
     }
 
     /* Feature Section */
-    .feature-content{
+    .feature-content {
         flex-direction: column;
     }
+
     .feature-img img {
         width: 100%;
         margin-top: 0;
     }
 
+    /* Facts Section */
+
+    .facts-content .facts-header {
+        text-align: center;
+    }
+
+    .facts-items {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* Sponsors Section */
+
+
+    .sponsors-content .sponsors-header {
+        text-align: center;
+    }
+
+    .sponsors-item {
+        flex-direction: column;
+    }
 }
 
 
@@ -349,12 +463,35 @@ header {
 
     /* Feature Section */
 
-    .feature-content{
+    .feature-content {
         flex-direction: column;
     }
+
     .feature-img img {
         width: 100%;
         margin-top: 0;
+    }
+
+    /* Facts Section */
+
+    .facts-content .facts-header {
+        text-align: center;
+    }
+
+    .facts-items {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* Sponsors Section */
+
+
+    .sponsors-content .sponsors-header {
+        text-align: center;
+    }
+
+    .sponsors-item {
+        flex-direction: column;
     }
 }
 
@@ -363,11 +500,17 @@ header {
 
     /* Feature Section */
 
-    .feature-content{
+    .feature-content {
         flex-direction: column;
     }
+
     .feature-img img {
         width: 100%;
         margin-top: 0;
+    }
+
+    /* Sponsors Section */
+    .sponsors-item img {
+        width: 100px;
     }
 }
